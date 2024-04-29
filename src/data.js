@@ -13,7 +13,7 @@ import img6 from './assets/panel/6.svg';
 import img7 from './assets/panel/7.svg';
 import img8 from './assets/panel/8.svg';
 
-import active from './assets/panel/Ok.svg';
+import active from './assets/panel/Ok.svg'; 
 
 export const links = [
   {
