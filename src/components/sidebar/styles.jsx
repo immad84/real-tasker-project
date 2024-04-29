@@ -97,12 +97,12 @@ export const SidebarContainer = styled.aside`
     border-bottom: 3px solid #dfe0eb;
   }
 
-  object svg {
-    g > path {
-      fill: gold;
-      stroke: gold;
-      stroke-width: 0.1;
-      stroke-linejoin: round;
-    }
-  }
+  // object svg {
+  //   g > path {
+  //     fill: gold;
+  //     stroke: gold;
+  //     stroke-width: 0.1;
+  //     stroke-linejoin: round;
+  //   }
+  // }
 `;
