@@ -30,14 +30,15 @@ export const Wrapper = styled.header`
   */
 
   .card {
-    width: 60%;
-    height: 500px;
-    border-radius: 5px;
+    width: 380px;
+    height: 548px;
+    border-radius: 8px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #ffffff;
+    border: 1px solid #dfe0eb;
     padding: 1.5rem;
   }
 
@@ -81,6 +82,7 @@ export const Wrapper = styled.header`
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 8px;
+    border: 1px solid #f0f1f7;
   }
 
   .btn {

@@ -20,9 +20,19 @@ const Login = () => {
           </div>
 
           <label htmlFor="username">user name</label>
-          <input type="text" name="username" id="username" />
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Youer Username"
+          />
           <label htmlFor="password">password</label>
-          <input type="password" name="password" id="password" />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
           <button type="submit" className="btn">
             submit
           </button>

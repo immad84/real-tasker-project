@@ -2,11 +2,17 @@ import { links } from '../../data';
 
 import logo from '../../assets/sidebar/logo.svg';
 import { SidebarContainer } from './styles';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 import { useAppContext } from '../../context/context';
 
 const Sidebar = () => {
+  const navigate = useNavigate();
+
+  const handleNavigation = (url) => {
+    navigate(url);
+  };
+
   const { isToggle, hideSidebar } = useAppContext();
   return (
     <SidebarContainer className={isToggle ? 'show-sidebar' : 'hide-sidebar'}>
@@ -18,7 +24,13 @@ const Sidebar = () => {
           const { id, url, text, icon } = link;
           return (
             <li key={id} className="link">
-              <NavLink to={url} onClick={hideSidebar}>
+              <NavLink
+                to={url}
+                onClick={() => {
+                  hideSidebar();
+                  handleNavigation(url);
+                }}
+              >
                 <object
                   type="image/svg+xml"
                   data={icon}
