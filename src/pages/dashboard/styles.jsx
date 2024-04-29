@@ -261,7 +261,7 @@ export const Section = styled.section`
       table {
         th:nth-child(1),
         td:nth-child(1) {
-          width: 300px;
+          width: 200px;
         }
 
         th:nth-child(5),
