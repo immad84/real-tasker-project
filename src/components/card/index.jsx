@@ -70,7 +70,7 @@ const Card = () => {
           </div>
 
           <div className="contacts">
-            <p>contacts</p>
+            <p>contact us</p>
             <ImageStack>
               <img src={ellipse} alt="ellipse icon" className="img-1" />
               <img src={ellipse} alt="ellipse icon" className="img-2" />

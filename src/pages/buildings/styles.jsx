@@ -442,7 +442,7 @@ export const CardContainer = styled.section`
 
   @media screen and (min-width: 1000px) {
     // width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   @media screen and (min-width: 1500px) {

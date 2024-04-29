@@ -118,9 +118,9 @@ export const Footer = styled.div`
     // letter-spacing: 0.4px;
   }
 
-  .contacts p::after {
-    content: 'aa';
-  }
+  // .contacts p::after {
+  //   content: 'aa';
+  // }
 `;
 
 export const ImageStack = styled.div`
