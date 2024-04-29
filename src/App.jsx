@@ -12,9 +12,15 @@ import {
   ServiceCategory,
   Reports,
 } from './pages';
-import { useAppContext } from './context/context';
+
+import { Login, Error } from './pages/login';
 
 const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Login />,
+    errorElement: <Error />,
+  },
   {
     path: '/dashboard',
     element: <Layout />,
