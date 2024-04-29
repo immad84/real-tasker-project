@@ -122,7 +122,7 @@ export const Section = styled.section`
       td:nth-child(4) {
         width: 5rem;
         .img {
-          // padding-left: 0.5rem;
+          padding-left: 12px;
         }
       }
 
