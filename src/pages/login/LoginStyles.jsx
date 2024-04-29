@@ -92,6 +92,10 @@ export const Wrapper = styled.header`
     border-radius: 8px;
     margin-top: 1rem;
     padding: 1rem;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
   }
 
   @media (min-width: 576px) {
