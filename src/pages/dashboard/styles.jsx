@@ -259,9 +259,11 @@ export const Section = styled.section`
 
     @media screen and (min-width: 800px) {
       table {
+        width: calc(100% - 250px);
+
         th:nth-child(1),
         td:nth-child(1) {
-          width: 200px;
+          width: 300px;
         }
 
         th:nth-child(5),
