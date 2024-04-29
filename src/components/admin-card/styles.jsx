@@ -78,7 +78,7 @@ export const Section = styled.section`
         display: flex;
         align-items: center;
         // justify-content: space-between;
-        gap: 4rem;
+        gap: 3rem;
         border-bottom: 3px solid #dfe0eb;
         padding: 12px 2rem 12px 2rem;
       }
