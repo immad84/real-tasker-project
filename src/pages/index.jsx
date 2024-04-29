@@ -1,0 +1,10 @@
+export { default as Layout } from './layout';
+export { default as Dashboard } from './dashboard';
+export { default as Administrators } from './administrators';
+export { default as Buildings } from './buildings';
+export { default as Supervisors } from './supervisors';
+export { default as Tenants } from './tenants';
+export { default as Directory } from './directory';
+export { default as ServiceCategory } from './service-category';
+export { default as Reports } from './reports';
+export { default as Contacts } from './contacts';

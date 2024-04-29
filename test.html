@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+      }
+      .custom-file-input {
+        position: relative;
+        display: inline-block;
+        width: 316px;
+        height: 42px;
+        border-radius: 8px;
+        border: 1px solid #f0f1f7;
+        /* padding: 0 1rem; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .custom-file-input input[type='file'] {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+      }
+
+      .custom-file-input .browse {
+        background-color: #f4f4f4;
+        color: #4b506d;
+        /* height: 42px; */
+        padding: 12px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        /* margin-left: 100%; */
+      }
+
+      /* Hide the default appearance */
+      input[type='date'] {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+
+      /* Custom icon */
+      input[type='date']::-webkit-calendar-picker-indicator {
+        background: url('Vector.svg') no-repeat;
+        background-size: contain;
+        width: 20px; /* Adjust size as needed */
+        height: 20px; /* Adjust size as needed */
+        cursor: pointer;
+      }
+
+      /* Optional: Example custom border */
+      input[type='date'] {
+        width: 316px;
+        height: 42px;
+        background-color: #fcfdfe;
+        /* color: #4b506d; */
+        /* height: 42px; */
+        padding: 0 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        /* margin-left: 100%; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="custom-file-input">
+        <label for="fileInput" style="padding: 10px">Choose a File</label>
+        <input type="file" id="fileInput" name="fileInput" />
+        <label for="fileInput" class="browse">Browse</label>
+      </div>
+
+      <!-- <button type="button" id="customButton">Browse</button> -->
+
+      <div class="date">
+        <input type="date" id="dateInput" name="dateInput" />
+      </div>
+    </div>
+  </body>
+</html>
